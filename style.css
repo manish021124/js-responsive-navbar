@@ -40,6 +40,10 @@ body{
     cursor: pointer;
  }
 
+.list{
+    content-visibility: hidden;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
