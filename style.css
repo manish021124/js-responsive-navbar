@@ -40,7 +40,7 @@ body{
     cursor: pointer;
  }
 
-.list{
+#list{
     content-visibility: hidden;
 }
 
@@ -87,7 +87,7 @@ li a:hover{
         content-visibility: hidden;
     }
 
-    .list{
+    #list{
         content-visibility: visible;
         width: 30%;
     }

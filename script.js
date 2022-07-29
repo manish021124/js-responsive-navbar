@@ -1,5 +1,6 @@
+// document.getElementById('list').style.visibility = 'hidden';
 document.getElementById('btn').addEventListener("click", show);
 
 function show(){
-    document.getElementsByClassName('list').style.contentVisibility = 'visible';
+    document.getElementById('list').style.visibility = "visible";
 }
