@@ -19,15 +19,15 @@ body{
 }
 
 .heading{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
     padding-left: 30px;
-    width: 50%;
+    width: 80%;
 }
 
 .icon{
     padding-right: 30px;
-    width: 50%;
+    width: 20%;
     text-align: end;
 }
 
@@ -65,4 +65,47 @@ li a{
 li a:hover{
     background-color: #555;
     color: white;
+}
+
+@media only screen and (min-width: 768px){
+    .main{
+        background-color: #555;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header{
+        width: 70%;
+    }
+
+    .heading{
+        font-size: 40px;
+    }
+
+    .icon{
+        content-visibility: hidden;
+    }
+
+    .list{
+        content-visibility: visible;
+        width: 30%;
+    }
+
+    ul{
+        background-color: #555;
+    }
+
+    li{
+        float: left;
+    }
+
+    li a{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    li a:hover{
+        background-color: none;
+    }
 }
