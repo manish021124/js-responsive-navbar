@@ -40,10 +40,6 @@ body{
     cursor: pointer;
  }
 
-/* #list{
-    content-visibility: hidden;
-} */
-
 ul{
     list-style-type: none;
     margin: 0;
@@ -88,7 +84,6 @@ li a:hover{
     }
 
     #list{
-        /* content-visibility: visible; */
         width: 30%;
     }
 
